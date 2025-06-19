@@ -1,0 +1,14 @@
+/* Remove default browser margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Hides scrollbars from the body */
+}
+
+/* Make the iframe fill the entire screen */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes the default iframe border */
+}
